@@ -5,6 +5,9 @@ import Link from "next/link";
 import { UserButton } from "@clerk/nextjs";
 // import { useUser } from "@clerk/nextjs";
 
+
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
